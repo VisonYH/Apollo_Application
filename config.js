@@ -24,7 +24,7 @@ const CreateNamespaceConfigObj = (function (namespaceConfig) {
 })(namespaceConfig)
 
 module.exports = {
-
+  // 本地配置文件路径
   ENV_FILE_PATH: path.join(process.cwd(), '/default.env'),
   // 获取服务配置项
   remoteConfig: Object.assign({}, baseConfig, {
